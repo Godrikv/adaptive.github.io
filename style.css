@@ -103,6 +103,11 @@ a {
   color: #356EAD;
 }
 
+.fa-window-close {
+  width: 16px;
+  height: 16px;
+}
+
 .what {
   margin-top: 48px;
 }
@@ -216,6 +221,13 @@ a {
 .project__content_text {
   font-size: 16px;
   line-height: 19px;
+  color: #FFFFFF;
+  padding: 16px;
+}
+.project__content_text_main {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
   color: #FFFFFF;
   padding: 16px;
 }
@@ -429,6 +441,27 @@ a {
     letter-spacing: 0.05em;
     text-align: left;
   }
+
+  .top__bg {
+    max-height: 300px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content__text_p {
+    width: 299px;
+  }
+  .content__position_center {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .registry {
+    align-items: center;
+  }
 }
 @media (min-width: 992px) {
   .center {
@@ -528,6 +561,185 @@ a {
     flex-direction: row;
     margin-left: 100px;
   }
+
+  .global_position {
+    display: flex;
+    justify-content: center;
+  }
+
+  .names {
+    margin-top: 70px;
+    margin-bottom: 8px;
+  }
+
+  .registry__button {
+    margin-top: 72px;
+  }
+
+  .registry__text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+  }
+
+  #name {
+    padding: 21px;
+  }
+
+  #email {
+    padding: 21px;
+  }
+
+  #message {
+    padding: 21px;
+  }
+}
+.top__bg {
+  background-image: url("img/Mask Group.svg");
+  background-repeat: no-repeat;
+  background-position: right 0 top 100px;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.header__contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.header__contact > h3 {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.header__contact > p {
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content__img {
+  margin-top: 60px;
+  margin-bottom: 75px;
+}
+.content__text {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+.content__text_p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-top: 24px;
+}
+.content__text_h4 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+.content__box {
+  display: flex;
+  flex-direction: column;
+}
+.content__box_position {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.content__box_position > i {
+  margin-right: 19px;
+  font-size: 16px;
+  color: #1F3F68;
+}
+
+.registry {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.registry__form {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 36px;
+}
+.registry__text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  margin-bottom: 31px;
+}
+.registry__button {
+  background: #5A98D0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 15px 60px;
+  outline: none;
+}
+.registry #name {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 27px;
+  outline: none;
+}
+.registry #email {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 27px;
+  outline: none;
+}
+.registry #message {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 27px;
+  outline: none;
+}
+
+.maps {
+  height: 349px;
+  width: 343px;
 }
 
 /*# sourceMappingURL=style.css.map */
